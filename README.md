@@ -20,9 +20,13 @@ Na pasta que você definiu como um repositório crie um arquivo que vai ser usad
 >git add "nome do projeto" <br>
 - Exemplo: git add teste.py
 
->git commit "mensagem qualquer" <br>
-- Exemplo: git commit "Meu primeiro commit"
+>git commit -m "mensagem qualquer" <br>
+- Exemplo: git commit -m "Meu primeiro commit"
+
+Para usar o "git push" e conseguir ver o que colocado no git, no terminal, digite os seguintes comandos:
+
+> git push --set-upstream "link do repositório".git main
 
 >git push
 
-E pronto! O seu projeto já está salvo no git.
+E pronto! O seu projeto já está salvo no git e no GitHub.
